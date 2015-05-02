@@ -170,7 +170,7 @@ HEADER STYLING
 .header {
 	background-color: seagreen;
 	background-image: url('../img/sf_skyline.jpg');
-	background-size: cover; 
+	background-size: 100% 100%; 
 	background-position: center center;
 	color: white;
 	padding: 0;
@@ -213,10 +213,11 @@ POST STYLING
 
 	blockquote {
 		clear: both;
-		margin: 2.5em 0;
+		margin: 1.5em 0;
 		padding: 0;
-		line-height: 1.8;
+		line-height: 1.5;
 		position: relative;
+    text-align: center;
 
 		&:before {
 			content: "";

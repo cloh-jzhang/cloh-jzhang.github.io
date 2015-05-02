@@ -75,7 +75,7 @@ h3, .h3 {
 
 @media (min-width: 43.75em) {
   h3, .h3 {
-    font-size: 1.5em; // 1.5x body copy size = 24px
+    font-size: 1.15em; // 1.5x body copy size = 24px
     line-height: 1.25;
   }
 }
@@ -99,7 +99,7 @@ h4, .h4 {
 }
 
 blockquote {
-  font-size: 1.25em; // 20px / 16px
+  font-size: 1em; // 20px / 16px
   line-height: 1.25; // 25px / 20px
   padding: 0;  
 }
