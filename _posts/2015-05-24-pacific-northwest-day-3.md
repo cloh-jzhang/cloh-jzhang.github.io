@@ -31,3 +31,7 @@ She is a skilled reader, quick to discern what’s important and what’s not.
 She knows what she doesn’t know, but doesn’t let it get in the way of what she wants to know. 
 
 I learned a lot this trip to the Pacific Northwest, and saw many breathtaking sights. But when it's all said and done, I'll remember how Christine's smile made me beam and that her laugh is a required nutrient for my soul. 
+
+<figure>
+	<img src="{{ '/assets/img/rafting.jpg' | prepend: site.baseurl }}" alt=""> 
+</figure>
