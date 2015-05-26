@@ -5,7 +5,7 @@ date:   2015-05-22
 ---
 We woke up and dutifully typed something about working from home. Before those words reached our colleges, we were on the the road.
 
-Molded by volcanic eruptions, Lassen Volcanic National Park is home to fascinating natural phenomena, the first of which was set against an immense backdrop of pine trees, boulders, and streams. Stepped out of the car, we found ourselves in the middle of an ancient volcano. A few miles below, raging magna activated steam, fumaroles and boiling mudpots, not to mention the stench of rotten eggs.
+Molded by volcanic eruptions, Lassen Volcanic National Park is home to fascinating natural phenomena, the first of which was set against an immense backdrop of pine trees, boulders, and streams. Stepping out of the car, we found ourselves in the middle of an ancient volcano. A few miles below, raging magna activated steam, fumaroles and boiling mudpots, not to mention the stench of rotten eggs.
 
 We continued on, stopping at a lake that appeared amongst the branches. I took a moment to be immerse myself in the sounds of nature. When I opened my eyes, I saw Christine making her way across a tree trunk that had fallen into the water, eyes straight ahead, her steady determination the only soul in sight. 
 
