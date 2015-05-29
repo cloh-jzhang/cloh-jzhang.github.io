@@ -4,7 +4,7 @@ title:  "Pacific Northwest, Day 3"
 date:   2015-05-24
 ---
 
-Crater Lake is a gift, a display of nature’s genius when all the conditions are just right. The clear, transparent blue water dominates the senses, extending almost as far as the eyes can see. On a good day like today, the water perfectly mirrors the sky. The lake exudes tranquility - some silences are meant to ring forever - and even the wildlife know that they are lucky to be there.
+Crater Lake is a gift, a display of nature’s genius when the conditions are just right. The clear, blue water dominates the senses, extending almost as far as the eyes can see. On a good day like today, the clouds float in the water. The lake exudes tranquility - some silences are ring forever - and even the wildlife know they are lucky to be there.
 
 With that being said, at this time of the year, there’s not a whole lot to do in Crater Lake.
 <figure>
@@ -16,11 +16,11 @@ So I want to record something more important about today. I’ve been with Chris
 
 First, the indefensible. 
 
-Christine doesn’t like cilantro. Her membership amongst the fun deprived, friendless citizens of the world <b>is confirmed</b>. 
+Christine doesn’t like cilantro. Her membership amongst the fun deprived, friendless citizens of the world is confirmed.
 
 To the defensible. 
 
-She sees beauty in every moment, and knows how to capture it by keeping a photo trail of her life. 
+She appreciates every moment, capturing its beauty through a photo trail of her life.
 
 She likes to go ‘Wheeeee’ when passing a sluggish driver, because the world is her playground. 
 
@@ -30,7 +30,7 @@ She is a skilled reader, quick to discern what’s important and what’s not.
 
 She knows what she doesn’t know, but doesn’t let it get in the way of what she wants to know. 
 
-I learned a lot this trip to the Pacific Northwest, and saw many breathtaking sights. But when it's all said and done, I'll remember how Christine's smile made me beam and that her laugh is a required nutrient for my soul. 
+I learned a lot this trip to the Pacific Northwest, and saw unforgettable sights. But when it's all said and done, I'll remember how Christine's smile made me beam and that her laugh is a required nutrient for my soul. 
 
 <figure>
 	<img src="{{ '/assets/img/rafting.jpg' | prepend: site.baseurl }}" alt=""> 
