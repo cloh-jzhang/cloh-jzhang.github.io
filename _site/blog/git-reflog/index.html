@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Pacific Northwest, Day 3</title>
+    <title>The reflog</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
@@ -20,7 +20,7 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/assets/css/style.css">
     <!--[if IE 8]><link rel="stylesheet" href="/assets/css/ie.css"><![endif]-->
-    <link rel="canonical" href="http://brianmaierjr.github.com/long-haul/blog/pacific-northwest-day-3/">
+    <link rel="canonical" href="http://brianmaierjr.github.com/long-haul/blog/git-reflog/">
 
     <!-- Modernizr -->
     <script src="/assets/js/modernizr.custom.15390.js" type="text/javascript"></script>
@@ -58,53 +58,63 @@ ga('send', 'pageview');
       <div class="container">
          <div class="post">
   
-  <h1 class="postTitle">Pacific Northwest, Day 3</h1>
-  <p class="meta">May 24, 2015 | <span class="time">1</span> Minute Read</p>
+  <h1 class="postTitle">The reflog</h1>
+  <p class="meta">June 06, 2016 | <span class="time">1</span> Minute Read</p>
   
-  <p>Crater Lake is a gift, a display of nature’s genius when the conditions are just right. The clear, blue water dominates the senses, extending almost as far as the eyes can see. On a good day like today, the clouds float in the water. The lake exudes tranquility - some silences are ring forever - and even the wildlife know they are lucky to be there.</p>
+  <p><strong>What is the reflog?</strong></p>
 
-<p>With that being said, at this time of the year, there’s not a whole lot to do in Crater Lake.
-<figure>
-    <img src="/assets/img/crater_lake_2.jpg" alt=""> 
-    <figcaption>Definitely worth more than a thousand of my words</figcaption>
-</figure></p>
+<p>The reflog is git&#39;s undo button.</p>
 
-<p>So I want to record something more important about today. I’ve been with Christine since Thursday afternoon, by far the longest time I have ever spent with someone. </p>
+<p>As opposed to the centralized commit log, the reflog is a record of every commit that HEAD has referenced in your local repository. Actions recorded include: checking out a branch, stashing changes, and amending to a commit. </p>
 
-<p>First, the indefensible. </p>
+<p><strong>Example: Accidental Amend</strong></p>
 
-<p>Christine doesn’t like cilantro. Her membership amongst the fun deprived, friendless citizens of the world is confirmed.</p>
+<p>I&#39;m in the middle of working on a bug fix. The tip of my commit log looks like:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">jizhang-ld2| git log -n 1
+commit 747011a6c8ec86c1dcfd568689681bf8da85acdb
+Author: Jimmy Zhang &lt;jizhang@linkedin.com&gt;
+Date:  Thu May 28 19:54:17 2015 +0000
 
-<p>To the defensible. </p>
+Magical feature to increase stock price.
+</code></pre></div>
+<p>After squashing the bug, I accidentally amend my changes on top of the &#39;magical feature&#39; commit. To fix my history, I need to (1) extract the bug fix changes from my now jumbled HEAD, and (2) store them in a new commit. </p>
 
-<p>She appreciates every moment, capturing its beauty through a photo trail of her life.</p>
+<p><strong>Solution</strong></p>
 
-<p>She likes to go ‘Wheeeee’ when passing a sluggish driver, because the world is her playground. </p>
+<p>Use the reflog. </p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">jizhang-ld2| git reflog
+40aeaf9 HEAD@{0}: commit (amend): Magical feature to increase stock price.
+747011a HEAD@{1}: commit: Magical feature to increase stock price.
+</code></pre></div>
+<p>HEAD@{0} references my current HEAD. The reflog contains my &#39;magical feature&#39; commit before it was corrupted -  the parent pointer of my current HEAD, or HEAD@{1}. I temporarily reset the state of my repository to point there. </p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">git reset --soft HEAD@{1} 
+</code></pre></div>
+<p>After the reset, my bug fix is still saved on my filesystem. I can correctly store the changes in a new commit.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">jizhang-ld2| git add .
+jizhang-ld2| git commit -m &#39;bug fix&#39;
+jizhang-ld2| git log -n 2
+commit 92f727902845ef1f17ff2b4999866b1642c79991
+Author: Jimmy Zhang &lt;jizhang@linkedin.com&gt;
+Date:   Thu May 28 20:04:54 2015 +0000
 
-<p>She will put up with a lot in the name of good adventure, including an easily distracted navigator and an inexperienced rafter. </p>
+bug fix
 
-<p>She is a skilled reader, quick to discern what’s important and what’s not. </p>
+commit 747011a6c8ec86c1dcfd568689681bf8da85acdb
+Author: Jimmy Zhang &lt;jizhang@linkedin.com&gt;
+Date:  Thu May 28 19:54:17 2015 +0000
 
-<p>She knows what she doesn’t know, but doesn’t let it get in the way of what she wants to know. </p>
-
-<p>I learned a lot this trip to the Pacific Northwest, and saw unforgettable sights. But when it&#39;s all said and done, I&#39;ll remember how Christine&#39;s smile made me beam and that her laugh is a required nutrient for my soul. </p>
-
-<figure>
-    <img src="/assets/img/rafting.jpg" alt=""> 
-</figure>
+Magical feature to increase stock price.
+</code></pre></div>
+<p>Remember the reflog, and use it your advantage. </p>
 
 
   <!-- POST NAVIGATION -->
   <div class="postNav clearfix">
      
-      <a class="prev" href="/blog/pacific-northwest-day-2/"><span>&laquo;&nbsp;Pacific Northwest, Day 2</span>
+      <a class="prev" href="/blog/pacific-northwest-day-3/"><span>&laquo;&nbsp;Pacific Northwest, Day 3</span>
       
     </a>
       
-      
-      <a class="next" href="/blog/git-reflog/"><span>The reflog&nbsp;&raquo;</span>
-       
-      </a>
      
   </div>
 </div>
