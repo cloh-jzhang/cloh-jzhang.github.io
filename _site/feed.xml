@@ -5,70 +5,9 @@
     <description>Long Form Jekyll theme built with SASS / COMPASS / SUSY</description>
     <link>http://brianmaierjr.github.com/long-haul/</link>
     <atom:link href="http://brianmaierjr.github.com/long-haul/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Jun 2015 17:15:49 -0700</pubDate>
-    <lastBuildDate>Sat, 06 Jun 2015 17:15:49 -0700</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2015 21:30:42 -0700</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2015 21:30:42 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
-    
-      
-      <item>
-        <title>The reflog</title>
-        <description>&lt;p&gt;&lt;strong&gt;What is the reflog?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The reflog is git&amp;#39;s undo button.&lt;/p&gt;
-
-&lt;p&gt;As opposed to the centralized commit log, the reflog is a record of every commit that HEAD has referenced in your local repository. Actions recorded include: checking out a branch, stashing changes, and amending to a commit. &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Example: Accidental Amend&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;#39;m in the middle of working on a bug fix. The tip of my commit log looks like:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;jizhang-ld2| git log -n 1
-commit 747011a6c8ec86c1dcfd568689681bf8da85acdb
-Author: Jimmy Zhang &amp;lt;jizhang@linkedin.com&amp;gt;
-Date:  Thu May 28 19:54:17 2015 +0000
-
-Magical feature to increase stock price.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;After squashing the bug, I accidentally amend my changes on top of the &amp;#39;magical feature&amp;#39; commit. To fix my history, I need to (1) extract the bug fix changes from my now jumbled HEAD, and (2) store them in a new commit. &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Use the reflog. &lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;jizhang-ld2| git reflog
-40aeaf9 HEAD@{0}: commit (amend): Magical feature to increase stock price.
-747011a HEAD@{1}: commit: Magical feature to increase stock price.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;HEAD@{0} references my current HEAD. The reflog contains my &amp;#39;magical feature&amp;#39; commit before it was corrupted -  the parent pointer of my current HEAD, or HEAD@{1}. I temporarily reset the state of my repository to point there. &lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;git reset --soft HEAD@{1} 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;After the reset, my bug fix is still saved on my filesystem. I can correctly store the changes in a new commit.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;jizhang-ld2| git add .
-jizhang-ld2| git commit -m &amp;#39;bug fix&amp;#39;
-jizhang-ld2| git log -n 2
-commit 92f727902845ef1f17ff2b4999866b1642c79991
-Author: Jimmy Zhang &amp;lt;jizhang@linkedin.com&amp;gt;
-Date:   Thu May 28 20:04:54 2015 +0000
-
-bug fix
-
-commit 747011a6c8ec86c1dcfd568689681bf8da85acdb
-Author: Jimmy Zhang &amp;lt;jizhang@linkedin.com&amp;gt;
-Date:  Thu May 28 19:54:17 2015 +0000
-
-Magical feature to increase stock price.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Remember the reflog, and use it your advantage. &lt;/p&gt;
-</description>
-        
-          <description>&lt;p&gt;&lt;strong&gt;What is the reflog?&lt;/strong&gt;&lt;/p&gt;
-</description>
-        
-        <pubDate>Mon, 06 Jun 2016 00:00:00 -0700</pubDate>
-        <link>http://brianmaierjr.github.com/long-haul/blog/git-reflog/</link>
-        <guid isPermaLink="true">http://brianmaierjr.github.com/long-haul/blog/git-reflog/</guid>
-        
-        
-      </item>
-      
     
       
       <item>
