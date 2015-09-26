@@ -82,7 +82,9 @@ ga('send', 'pageview');
           mapTypeId: google.maps.MapTypeId.ROADMAP,
           draggable: false,
           zoomControl: false,
-          scrollWheel: false
+          scrollwheel: false,
+          scaleControl: false,
+          disableDoubleClickZoom: true
         } 
         map = new google.maps.Map(mapCanvas, mapOptions);
 
