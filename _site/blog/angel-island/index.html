@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Contact Long Haul</title>
+    <title>Angel Island</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
@@ -21,7 +21,7 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/assets/css/style.css">
     <!--[if IE 8]><link rel="stylesheet" href="/assets/css/ie.css"><![endif]-->
-    <link rel="canonical" href="http://brianmaierjr.github.com/long-haul/contact.html">
+    <link rel="canonical" href="http://brianmaierjr.github.com/long-haul/blog/angel-island/">
 
     <!-- Modernizr -->
     <script src="/assets/js/modernizr.custom.15390.js" type="text/javascript"></script>
@@ -57,22 +57,85 @@ ga('send', 'pageview');
 
    <div class="content">
       <div class="container">
-         <div id="contact">
-  <h1 class="pageTitle">Contact Me</h1>
-  <div class="contactContent">
-    <p class="intro">This is an example Contact page. If you want to make changes then do so in the <code>contact.html</code> file.</p>
-    <p>The form is provided by <a href="http://formspree.io/">Formspree.</a> Follow the directions on their site to set up the form for use.</p>
-    <p>If you have questions about the theme feel free to <a href="mailto:brimaidesigns@gmail.com">email me</a> or create an issue on <a href="https://github.com/brianmaierjr/long-haul">GitHub</a>. Enjoy!</p>
+         <div class="post">
+  
+  <h1 class="postTitle">Angel Island</h1>
+  <p class="meta">September 25, 2015</p>
+  
+  <!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map-canvas {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+      }
+    </style> 
+
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(37.7835, -122.4067),
+          zoom: 13,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          draggable: false,
+          zoomControl: false,
+          scrollWheel: false
+        } 
+        map = new google.maps.Map(mapCanvas, mapOptions);
+
+        var directionService = new google.maps.DirectionsService();
+
+        var path = new google.maps.MVCArray();
+        var poly = new google.maps.Polyline({
+          map: map,
+          geodesic: true,
+          strokeColor: '#006400',
+          strokeOpacity: 2.0,
+          strokeWeight: 4
+         });
+
+        directionService.route({
+          origin: new google.maps.LatLng(37.754665, -122.420936),
+          destination: new google.maps.LatLng(37.809167, -122.411389),
+          travelMode: google.maps.DirectionsTravelMode.BICYCLING},
+          function(result, status) {
+            if (status == google.maps.DirectionsStatus.OK) {
+              for (var i = 0, len = result.routes[0].overview_path.length; i < len; i++) {
+                path.push(result.routes[0].overview_path[i]);
+              } 
+            }
+          });
+        poly.setPath(path);
+        
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    
+    </script> 
+
+  </head>
+  <body>
+    <p>I’m reading Cool Gray City of Love, 49 vignettes about places in San Francisco. Each chapter is a seperate story - only Kamira’s dedication to his city ties them together - histories of people and the land they walked on woven together with personal experiences. The writing is reverent, a poetic tribute, and I heard its echoes throughout our trip to Angel Island on Sunday. </p>
+
+<p>The bike ride from Christine’s apartment to the Angel Island Ferry is as smooth as any in the city - a straight shot down Valencia, right on Market until the shimmering bay, capped by a cruise down Embarcadero. </p>
+
+    <div id="map-canvas"></div>
+
+  </body>
+</html>
+
+
+  <!-- POST NAVIGATION -->
+  <div class="postNav clearfix">
+     
+      <a class="prev" href="/blog/a-spattering-of-memories/"><span>&laquo;&nbsp;A Spattering of Memories</span>
+      
+    </a>
+      
+     
   </div>
-  <form action="http://formspree.io/your@mail.com">
-    <label for="name">Name</label>    
-    <input type="text" id="name" name="name" class="full-width"><br>
-    <label for="email">Email Address</label>
-    <input type="email" id="email" name="_replyto" class="full-width"><br>
-    <label for="message">Message</label>
-    <textarea name="message" id="message" cols="30" rows="10" class="full-width"></textarea><br>
-    <input type="submit" value="Send" class="button">
-  </form>
 </div>
 
       </div>
