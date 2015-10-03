@@ -5,8 +5,8 @@
     <description>Long Form Jekyll theme built with SASS / COMPASS / SUSY</description>
     <link>http://brianmaierjr.github.com/long-haul/</link>
     <atom:link href="http://brianmaierjr.github.com/long-haul/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 25 Sep 2015 23:08:40 -0700</pubDate>
-    <lastBuildDate>Fri, 25 Sep 2015 23:08:40 -0700</lastBuildDate>
+    <pubDate>Sat, 03 Oct 2015 11:23:30 -0700</pubDate>
+    <lastBuildDate>Sat, 03 Oct 2015 11:23:30 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       
@@ -15,6 +15,12 @@
         <description>&lt;p&gt;I’m reading Cool Gray City of Love, 49 vignettes about places in San Francisco. Each chapter is a separate story - only Kamira’s dedication to his city ties them together - histories of people and the land they walked on woven together with personal experiences. The writing is reverent, a poetic tribute, and I heard its echoes throughout our trip to Angel Island on Sunday. &lt;/p&gt;
 
 &lt;p&gt;The bike ride from Christine’s apartment to the Angel Island Ferry is as smooth as any in the city - a straight shot down Valencia, right on Market until the shimmering bay, capped by a cruise down Embarcadero. &lt;/p&gt;
+
+&lt;div class=&quot;map-meta-container&quot; mapType=&quot;direction&quot; originLat=&quot;37.754665&quot; originLong=&quot;-122.420936&quot; destLat=&quot;37.809167&quot; destLong=&quot;-122.411389&quot;&gt;
+  &lt;div id=&quot;map-canvas&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I’m like hey what&amp;#39;s up hello.&lt;/p&gt;
 </description>
         
           <description>&lt;p&gt;I’m reading Cool Gray City of Love, 49 vignettes about places in San Francisco. Each chapter is a separate story - only Kamira’s dedication to his city ties them together - histories of people and the land they walked on woven together with personal experiences. The writing is reverent, a poetic tribute, and I heard its echoes throughout our trip to Angel Island on Sunday. &lt;/p&gt;
