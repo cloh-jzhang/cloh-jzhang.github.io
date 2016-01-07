@@ -11,7 +11,7 @@ We recently camped at Death Valley and Joshua Tree National Parks, adding two gr
 
 ### Death Valley
 
-Numbers can describe some aspects of Death Valley, a desolate landscape that overwhelms you with its size and stark beauty. Spanning more than 3 million acres, it’s the largest park in the lower 48. It's home to the lowest point in North America, perched 282 feet below sea level. It once scorched 134 degrees - the highest record temperature in history. 
+Numbers can describe some aspects of Death Valley, a desolate landscape that overwhelms you with its size and stark beauty. Spanning more than 3 million acres, it’s the largest park in the lower 48. It's home to the lowest point in North America, perched 282 feet below sea level. It once scorched 134 degrees - the highest recorded temperature in history. 
 
 Death Valley is so vast that landmarks are often 30 minute drives apart - after nine hours in the car, these minutes were taxing. But along the way, we passed sand dunes and a unique desert palette, and looked for the moon behind the mountains while scanning for coyotes before our headlights.
 
