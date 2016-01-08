@@ -1,4 +1,4 @@
----
+/---
 layout: post
 title:  "California NP: Part I"
 date:   2016-01-02
@@ -13,7 +13,7 @@ We recently camped at Death Valley and Joshua Tree National Parks, adding two gr
 
 Numbers can describe some aspects of Death Valley, a desolate landscape that overwhelms you with its size and stark beauty. Spanning more than 3 million acres, it’s the largest park in the lower 48. It's home to the lowest point in North America, perched 282 feet below sea level. It once scorched 134 degrees - the highest recorded temperature in history. 
 
-Death Valley is so vast that landmarks are often 30 minute drives apart - after a 9 hour drive, these minutes were taxing. But along the way, we passed sand dunes and a unique desert palette, and looked for the moon behind the mountains while scanning for coyotes before our headlights.
+Death Valley is so vast that landmarks are often 30 minute drives apart - after a 9 hour drive, these minutes were taxing. But along the way, we passed sand dunes and a unique desert palette, looked for the moon behind the mountains and scanned for coyotes before our headlights.
 
 <figure>
 	<img src="{{ '/assets/img/death_valley/palette.jpg' | prepend: site.baseurl }}" alt="" height="340px" width="520px">
@@ -28,7 +28,7 @@ Our first stop was a short hike that knifes through Golden Canyon. The canyon wa
 
 Golden Canyon was our first sense of scale: trapped within its barren hold, it's easy to forget that the canyon is but a tiny fraction of the park's wonders - a small branch on a Giant Sequoia. Back at the trailhead, the valley expanded again for miles left and right, and the mountains loomed steady ahead. 
 
-With the sun setting, we hurried to Badwater Basin, famous for  its geography and its salt. The lowest point in North America, the basin is the final resting point for flash floods. The rainwater quickly evaporates, leaving behind salt that accumulates into a wide field of white crystal. Exploring until the sunset leaked between far away mountains, we walked back with a lingering taste of salt in our mouths. 
+With the sun setting, we hurried to Badwater Basin, famous for  its geography and its salt. The lowest point in North America, the basin is the final resting point for flash floods. The rainwater quickly evaporates, leaving behind salt that accumulates into a wide field of white crystal. Exploring until the sunset leaked through a distant valley, we walked back with a lingering taste of salt in our mouths. 
 
 <figure>
 	<img src="{{ '/assets/img/death_valley/badwater_basin.jpg' | prepend: site.baseurl }}" alt="" height="350px" width="600px">
