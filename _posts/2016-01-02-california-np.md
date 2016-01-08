@@ -32,7 +32,7 @@ With the sun setting, we hurried to Badwater Basin, famous for  its geography an
 
 <figure>
 	<img src="{{ '/assets/img/death_valley/badwater_basin.jpg' | prepend: site.baseurl }}" alt="" height="350px" width="600px">
-</figurefigure>
+</figure>
 
 Death Valley transforms at night. Engulfed by darkness, the contours of mountain and canyon disappear. Without competing light from nearby cities, stars filled every corner of the sky and it  sparkled like we've never seen it sparkle before. 
 
@@ -45,21 +45,26 @@ In the morning, we returned to the sand dunes, which we turned into a playground
 </figure>
 
 ### Joshua Tree
-
-- Sunset at Keys View (Salton Sea to the left, Mt. Jacinto)
-- Campgrounds
-- Ryans Mountain
-
+jkkk
 From Death Valley, we drove south to Joshua Tree National Park, home to curious trees, impressive boulders, and one memorable campground. 
 
-Arriving with an hour of daylight left, we were relieved that we didn't have to venture far to enjoy the park. Even along the park's main road, Joshua Trees were everywhere. They hugged the edge of the ashpalt and sprouted every few feet - if they were taller, we'd be driving through a forest - and the short, thick branches growing out like curved fingers reminded me of neurons, albeit in plant form. 
+Arriving with an hour of daylight left, we were relieved that we didn't have to venture far to enjoy the park. Even along the park's main road, Joshua Trees were everywhere. They hugged the edge of the ashpalt and sprouted every few feet - if they were taller, we'd be driving through a forest - and their short, thick branches growing out like curved fingers reminded me of neurons, albeit in plant form. 
 
 <figure>
   <img src="{{ '/assets/img/joshua_tree/joshua_trees.jpg' | prepend: site.baseurl }}" alt="" height="300px" width="520px">
 </figure>
 
-The trees share the park with massive boulder formations, some of which are named after the shapes they resemble. We stopped at Skull Rock, which was a bit tourist infested. With our hands and feet, we scrambled up a bit futher, where we found a childhood friend, Bulbasaur Boulder. 
+The trees share the park with massive rock formations, some of which are named after the shapes they resemble. We stopped at Skull Rock, which was a bit tourist infested. On our hands and feet, we scrambled up a bit futher, where we found a childhood friend, Bulbasaur Boulder. 
 
 <figure>
-  <img src="{{ '/assets/img/joshua_tree/bulbasaur_boulder.jpg' | prepend: site.baseurl }}" alt="" height="520px" width="400px">
+  <img src="{{ '/assets/img/joshua_tree/bulbasaur_boulder.jpg' | prepend: site.baseurl }}" alt="" height="420px" width="380px">
 </figure>
+
+To end our day, we headed to Keys View, where we watched sun fall over the Salton Sea, the snow capped Mt. Jacinto Peak, and the San Andreas Fault. Afterwards, it was time for camping. 
+
+
+
+
+
+
+
