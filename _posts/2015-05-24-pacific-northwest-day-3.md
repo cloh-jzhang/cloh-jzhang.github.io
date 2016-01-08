@@ -33,5 +33,5 @@ She knows what she doesn’t know, but doesn’t let it get in the way of what s
 I learned a lot this trip to the Pacific Northwest, and saw unforgettable sights. But when it's all said and done, I'll remember how Christine's smile made me beam and that her laugh is a required nutrient for my soul. 
 
 <figure>
-	<img src="{{ '/assets/img/rafting.jpg' | prepend: site.baseurl }}" alt=""> 
+	<img src="{{ '/assets/img/rafting.jpg' | prepend: site.baseurl }}" alt="" height="520px" width="380px">> 
 </figure>

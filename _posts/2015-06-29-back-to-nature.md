@@ -10,10 +10,10 @@ We started early Saturday, exploring Monterey Bay on kayak, paddling level with 
 Next, after a few hours at the Monterey Bay Aquarium, we drove to Point Lobos State Park, where the ocean enlivens the rocks into a jagged mixture of layer and pattern. Arm in arm, Christine and I ambled along the rugged California Coast, letting last week's anthems fade into darkness. At night, we gazed at an organic electric sky on Del Monte Beach - a saturation of orange and pink and yellow, the most brilliant sunset I have seen.
 
 <figure>
-	<img src="{{ '/assets/img/sunset.jpg' | prepend: site.baseurl }}" alt=""> 
+	<img src="{{ '/assets/img/sunset.jpg' | prepend: site.baseurl }}" alt="" height="340px" width="520px">> 
 </figure>
 
 
-At noon on Sunday, we hit the surf with our (limited) abilities. For the next two hours, I was liberated, fully engaged, entranced by the waves, the smooth, glass-like water. For the rest of my life, I’ll feel myself pushing up with my arms. I'll prepare for the ensuing tumble. I’ll intimate my underdeveloped sense of balance. I’ll watch Christine rise to her feet, one cautious knee at a time - my girlfriend, consistently rising to the challenge. I’ll see my two feet and realize that I’m upright on my only successful ride to the shore, weightless and giddy from the curve of the wave. I won’t be able to describe how it happened, only that I need to experience it again, and again, and again. 
+At noon on Sunday, we hit the surf with our (limited) abilities. For the next two hours, I was liberated, fully engaged, entranced by the waves and the smooth, glass-like water. For the rest of my life, I’ll feel myself pushing up with my arms. I'll prepare for the ensuing tumble. I’ll intimate my underdeveloped sense of balance. I’ll watch Christine rise to her feet, one cautious knee at a time - my girlfriend, consistently rising to the challenge. I’ll see my two feet and realize that I’m upright on my only successful ride to the shore, weightless and giddy from the curve of the wave. I won’t be able to describe how it happened, only that I need to experience it again, and again, and again. 
 
 Midway through the drive back home, I fell asleep. When I woke up and reflected on our new experiences, I found a ribbon - the only prize I need for being a participant of the world. 
