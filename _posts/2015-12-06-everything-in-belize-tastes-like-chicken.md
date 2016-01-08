@@ -1,4 +1,4 @@
-jjj/---
+---
 layout: post
 title:  "Everything in Belize Tastes Like Chicken"
 date:   2015-12-06
