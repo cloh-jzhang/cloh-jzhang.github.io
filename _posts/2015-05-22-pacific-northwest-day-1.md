@@ -10,7 +10,7 @@ Molded by volcanic eruptions, Lassen Volcanic National Park is home to fascinati
 We continued on, stopping at a lake that appeared amongst the branches. I took a moment to enjoy the sounds of nature. When I opened my eyes, I saw Christine making her way across a tree trunk that had fallen into the water, eyes straight ahead, her steady determination the only soul in sight. 
 
 <figure>
-	<img src="{{ '/assets/img/summit_lake.jpg' | prepend: site.baseurl }}" alt=""> 
+	<img src="{{ '/assets/img/summit_lake.jpg' | prepend: site.baseurl }}" alt="" height="420px" width="600px"> 
 	<figcaption>Next time we'll go for a swim</figcaption>
 </figure>
 
