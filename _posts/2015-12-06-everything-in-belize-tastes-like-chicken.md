@@ -1,4 +1,4 @@
----
+jjj/---
 layout: post
 title:  "Everything in Belize Tastes Like Chicken"
 date:   2015-12-06
@@ -24,7 +24,7 @@ _Day 2: Hol Chan Marine Reserve/Caye Caulker_
 
 We woke early to watch the sunrise from the beach (the beauty of these islands - the sun rises and sets over beaches separated by blocks, not miles). Unfortunately, clouds blocked the sun and we didn’t see much. But all was well, because we were headed to Caye Caulker for a day of snorkeling, reggae music, and rum punch. 
 
-Caye Caulker is much smaller than Ambergris Caye. It’s also quieter, as the “Go Slow” motto beckons. The stands along the beach are run by smiling owners selling Belizan breakfast and fresh fruit smoothies, exuding the best type of island vibe.
+Caye Caulker is much smaller than Ambergris Caye. It’s also quieter, as the “Go Slow” motto beckons. Smiling owners run the stands along the beach, selling Belizan breakfast and fresh fruit smoothies, exuding the best type of island vibe.
 
 It was my first time snorkeling in some time, and I had a little trouble getting my bearings. Luckily, I got them in time to experience the wonders of Hol Chan Marine Reserve. It’s amazing - viewed from the boat, the treasures of the ocean are expertly hidden, but an exotic and varied world exists only a few feet below. 
 
