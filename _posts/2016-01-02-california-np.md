@@ -59,7 +59,7 @@ The trees share the park with massive rock formations, some of which are named a
 <figcaption>Bulbasaur Boulder</figcation>
 </figure>
 
-After watching sunset at Keys View, where the sun fell over the Salton Sea, the snowcapped peak of Mt. San Jacinto, and the San Andreas Fault, it was dark when we reached ourcampgrounds. But we could still make out the outline of large boulders - our campground was nestled within the same rock formations that we had just explored. 
+After watching sunset at Keys View, where the sun fell over the Salton Sea, the snowcapped peak of Mt. San Jacinto, and the San Andreas Fault, it was dark when we reached our campgrounds. But we could still make out the outline of large boulders - our campground was nestled within the same rock formations that we had just explored. 
 
 We set up our tent, making sure to carry extra blankets to combat the cold. With the help of a few newspapers from Albertson's, we iterated on our teepee of firewood until our campfire roared - a first for both of us. 
 
