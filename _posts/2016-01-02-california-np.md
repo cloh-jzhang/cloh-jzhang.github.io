@@ -28,7 +28,7 @@ Our first stop was a short hike that knifes through Golden Canyon. The canyon wa
 
 Golden Canyon was our first sense of scale: trapped within its barren hold, it's easy to forget that the canyon is but a tiny fraction of the park's wonders - a small branch on a Giant Sequoia. Back at the trailhead, the valley expanded again for miles left and right, and the mountains loomed steady ahead. 
 
-With the sun setting, we hurried to Badwater Basin, famous for  its geography and its salt. The lowest point in North America, the basin is the final resting point for flash floods. The rainwater evaporates, leaving behind salt that accumulates into a wide field of white. Exploring until the sunset leaked through a distant valley, we walked back with a lingering taste of salt in our mouths. 
+With the sun setting, we hurried to Badwater Basin, famous for  its geography and its salt. The lowest point in North America, the basin is the final resting point for flash floods. When the rainwater evaporates, it leeaves behind salt that accumulates into a wide field of white. Exploring until the sunset leaked through a distant valley, we walked back with a lingering taste of salt in our mouths. 
 
 <figure>
 	<img src="{{ '/assets/img/death_valley/badwater_basin.jpg' | prepend: site.baseurl }}" alt="" height="350px" width="600px">
@@ -59,7 +59,7 @@ The trees share the park with massive rock formations, some of which are named a
 <figcaption>Bulbasaur Boulder</figcation>
 </figure>
 
-After a trip to Keys View to watch the sun set over the Salton Sea, the snowcapped peak of Mt. San Jacinto, and the San Andreas Fault, it was dark when we reached our campgrounds. But we could still make out the outline of large boulders - our campground was nestled within the same rock formations that we had just explored. 
+After watching sunset at Keys View, where the sun fell over the Salton Sea, the snowcapped peak of Mt. San Jacinto, and the San Andreas Fault, it was dark when we reached ourcampgrounds. But we could still make out the outline of large boulders - our campground was nestled within the same rock formations that we had just explored. 
 
 We set up our tent, making sure to carry extra blankets to combat the cold. With the help of a few newspapers from Albertson's, we iterated on our teepee of firewood until our campfire roared - a first for both of us. 
 
