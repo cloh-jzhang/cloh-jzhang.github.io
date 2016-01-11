@@ -52,13 +52,14 @@ Arriving with an hour of daylight left, we were relieved that we didn't have to 
   <img src="{{ '/assets/img/joshua_tree/joshua_trees.jpg' | prepend: site.baseurl }}" alt="" height="280px" width="520px">
 </figure>
 
-The trees share the park with massive rock formations, some of which are named after the shapes they resemble. Instead of settling for Skull Rock, which was crawling with tourists, we scrambled up until we reached a childhood friend, Bulbasaur Boulder. 
+The trees share the park with massive rock formations, some of which are named after the shapes they resemble. Instead of settling for Skull Rock, which was crawling with tourists, we scrambled up until we reached a childhood friend.
 
 <figure>
   <img src="{{ '/assets/img/joshua_tree/bulbasaur_boulder.jpg' | prepend: site.baseurl }}" alt="" height="400px" width="380px">
+<figcaption>Bulbasaur Boulder</figcation>
 </figure>
 
-After a trip to Keys Point to watch the sunset over the Salton Sea, the snowcapped peak of Mt. Jacinto, and the San Andras Fault, it was dark when we reached our campgrounds. But we could still make out the outline of large boulders - our campground was nestled within the same rock formations that we had just explored. 
+After a trip to Keys Point to watch the sun set over the Salton Sea, the snowcapped peak of Mt. San Jacinto, and the San Andras Fault, it was dark when we reached our campgrounds. But we could still make out the outline of large boulders - our campground was nestled within the same rock formations that we had just explored. 
 
 We set up our tent, making sure to carry extra blankets to combat the cold. With the help of a few newspapers from Albertson's, we iterated on our tepee of firewood until our campfire roared - a first for both of us. 
 
@@ -75,4 +76,10 @@ Naturally, we climbed to the top to ring in the last sunrise of 2015.
   <img src="{{ '/assets/img/joshua_tree/view.jpg' | prepend: site.baseurl }}" alt="" height="320px" width="480px">
 </figure>
 
-We 
+We got a last look at the park by climbing to the top of Ryan Mountain. At 5,457 feet, those curious trees look more like shrubs and the impressive boulders more like pebbles, but Joshua Tree looks even more grand. 
+
+<figure>
+  <img src="{{ '/assets/img/joshua_tree/ryan_mountain.jpg' | prepend: site.baseurl }}" alt="" height="320px" width="480px">
+</figure>
+
+We left Joshua Tree and headed for San Diego. Immediately, we were reacquianted with the splendors of civilization: an hour long line to check into our hotel room, every minute of which made the previous 3 days a bit more precious. 
