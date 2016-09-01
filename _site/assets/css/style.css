@@ -1440,3 +1440,10 @@ dd {
         margin-right: 0
     }
 }
+
+img.center {
+  display: block;
+  margin: auto;
+  width: 70%;
+  height: 450px;
+}
